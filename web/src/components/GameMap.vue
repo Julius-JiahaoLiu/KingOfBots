@@ -1,7 +1,8 @@
 <template>
     <div class="playground">
         <div ref="parent" class="gamemap">
-            <canvas ref="canvas"></canvas>
+            <!-- add tabindex="0" to make canvas focusable and listen to keydown event -->
+            <canvas ref="canvas" tabindex="0"></canvas> 
         </div>
     </div>
 </template>
